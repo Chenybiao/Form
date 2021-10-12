@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>注册信息</title>
+</head>
+<body>
+<h1 align="center">信息注册</h1>
+<hr color="#875896"/>
+<form>
+    <table width="600px" align="center" bgcolor="#deb887" >
+        <tr>
+            <td align="right">用户名:</td>
+            <td align="left"><input type="text" name="username" maxlength="12" placeholder="请输入姓名"/></td>
+        </tr>
+        <tr>
+            <td align="right">密码:</td>
+            <td align="left"><input type="password" name="paw" maxlength="18" placeholder="请输入密码"/></td>
+        </tr>
+        <tr>
+            <td align="right">确认密码:</td>
+            <td align="left"><input type="password" name="paw_a" maxlength="18" placeholder="请确认密码"/></td>
+        </tr>
+        <tr>
+            <td align="right">上传照片:</td>
+            <td align="left"><input type="file" name="file"/></td>
+        </tr>
+        <tr>
+            <td align="right">性别:</td>
+            <td align="left">
+                男<input type="radio" name="dx" value="man" checked\>
+                女<input type="radio" name="dx" value="woman" \>
+            </td>
+        </tr>
+        <tr>
+            <td align="right">爱好:</td>
+            <td align="left">
+                读书<input  type="checkbox" name="fx" value="read"/>
+                唱歌<input  type="checkbox" name="fx" value="sing"/>
+                跳舞<input  type="checkbox" name="fx" value="donce"/>
+            </td>
+        </tr>
+        <tr>
+            <td align="right">城市:</td>
+            <td align="left">
+                <select>
+                    <option>--请选择--</option>
+                    <option name="bj">北京</option>
+                    <option name="sh">上海</option>
+                    <option name="gz">广州</option>
+                    <option name="sz">深圳</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td align="right">个人简介:</td>
+            <td align="left">
+                <textarea name="jj" rows="5" cols="30" placeholder="请输入信息..."></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">
+                <input type="button" name="button" value="bu"/>
+                <input type="submit" name="submit" value="submit"/>
+                <input type="reset" name="reset" value="reset"/>
+            </td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
